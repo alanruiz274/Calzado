@@ -1,0 +1,13 @@
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\Manejador.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\Manejador.pdb
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\AccesoDatos.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\Entidades.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\ConexionBD.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\MySql.Data.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\AccesoDatos.pdb
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\Entidades.pdb
+C:\Users\Jaime\source\repos\Calzado\Manejador\bin\Debug\ConexionBD.pdb
+C:\Users\Jaime\source\repos\Calzado\Manejador\obj\Debug\Manejador.csprojAssemblyReference.cache
+C:\Users\Jaime\source\repos\Calzado\Manejador\obj\Debug\Manejador.csproj.CopyComplete
+C:\Users\Jaime\source\repos\Calzado\Manejador\obj\Debug\Manejador.dll
+C:\Users\Jaime\source\repos\Calzado\Manejador\obj\Debug\Manejador.pdb
