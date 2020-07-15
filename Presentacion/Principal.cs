@@ -13,8 +13,6 @@ namespace Presentacion
 {
     public partial class Principal : Form
     {
-        int id, nivel;
-        string user, password;
         public Principal()
         {
             InitializeComponent();
@@ -54,10 +52,6 @@ namespace Presentacion
                 this.Size = Screen.PrimaryScreen.WorkingArea.Size;
                 this.Location = Screen.PrimaryScreen.WorkingArea.Location;
             }
-            /*if (this.WindowState == FormWindowState.Maximized)
-                this.WindowState = FormWindowState.Normal;
-            else
-                this.WindowState = FormWindowState.Maximized;*/
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
@@ -77,37 +71,27 @@ namespace Presentacion
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
+            this.imgFondo.Visible = false;
             AbrirForm(new frmClientes());
         }
 
-        private void btnMaterial_Click(object sender, EventArgs e)
-        {
-            //AbrirForm(new frmMaterial());
-        }
 
         private void logo_Click(object sender, EventArgs e)
         {
         }
 
-        private void btnAvances_Click(object sender, EventArgs e)
-        {
-            //AbrirForm(new FrmAvances());
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //AbrirForm(new FrmReportes());
-        }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
+            this.imgFondo.Visible = false;
             AbrirForm(new frmVentas());
         }
 
-        private void btnProyectos_Click(object sender, EventArgs e)
+        private void imgLogo_Click(object sender, EventArgs e)
         {
-            //AbrirForm(new frmProyectos());
+            
         }
+
         private void AbrirForm(object Frmhijo)
         {
             if (this.panelContenedor.Controls.Count > 0)
@@ -118,6 +102,10 @@ namespace Presentacion
             this.panelContenedor.Controls.Add(fh);
             this.panelContenedor.Tag = fh;
             fh.Show();
+        }
+        private void CerrarForm()
+        {
+            
         }
     }
 }

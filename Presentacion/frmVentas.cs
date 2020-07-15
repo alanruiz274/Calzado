@@ -155,16 +155,27 @@ namespace Presentacion
             {
                 lblTitulo.Text = cmbBuscar.Text;
                 dtgDatos.DataSource = ventasManejador.MostarProducto();
+                this.dtgDatos.Columns["Precio"].HeaderText = "Total";
             }
             if (cmbBuscar.SelectedIndex == 1)
             {
                 lblTitulo.Text = cmbBuscar.Text;
                 dtgDatos.DataSource = ventasManejador.MostarQuiencompromas();
+                this.dtgDatos.Columns["Idc"].Visible = false;
+                this.dtgDatos.Columns["Domicilio"].Visible = false;
+                this.dtgDatos.Columns["Rfc"].Visible = false;
+                this.dtgDatos.Columns["Telefono"].Visible = false;
             }
             if (cmbBuscar.SelectedIndex == 2)
             {
                 lblTitulo.Text = cmbBuscar.Text;
                 dtgDatos.DataSource = ventasManejador.MostrarDia();
+                this.dtgDatos.Columns["Idv"].Visible = false;
+                this.dtgDatos.Columns["Cliente"].Visible = false;
+                this.dtgDatos.Columns["Cantidad"].Visible = false;
+                this.dtgDatos.Columns["Precio"].Visible = false;
+                this.dtgDatos.Columns["Total"].Visible = false;
+                this.dtgDatos.Columns["Producto"].Visible = false;
             }
         }
 

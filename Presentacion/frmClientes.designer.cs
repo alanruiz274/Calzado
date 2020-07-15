@@ -75,7 +75,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(677, 620);
+            this.panel1.Size = new System.Drawing.Size(585, 366);
             this.panel1.TabIndex = 0;
             // 
             // btnEditar
@@ -90,7 +90,7 @@
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnEditar.Location = new System.Drawing.Point(46, 549);
+            this.btnEditar.Location = new System.Drawing.Point(464, 93);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(103, 47);
             this.btnEditar.TabIndex = 17;
@@ -110,7 +110,7 @@
             this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnBorrar.Location = new System.Drawing.Point(155, 549);
+            this.btnBorrar.Location = new System.Drawing.Point(464, 153);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(103, 47);
             this.btnBorrar.TabIndex = 8;
@@ -148,11 +148,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Script", 14F);
+            this.label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(286, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 30);
+            this.label1.Size = new System.Drawing.Size(79, 22);
             this.label1.TabIndex = 5;
             this.label1.Text = "Clientes";
             // 
@@ -194,7 +194,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.LightGray;
             this.dtgClientes.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dtgClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgClientes.Size = new System.Drawing.Size(677, 450);
+            this.dtgClientes.Size = new System.Drawing.Size(458, 270);
             this.dtgClientes.TabIndex = 0;
             this.dtgClientes.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgProyectos_CellContentDoubleClick);
             // 
@@ -205,7 +205,7 @@
             this.shapeContainer2.Name = "shapeContainer2";
             this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2});
-            this.shapeContainer2.Size = new System.Drawing.Size(677, 620);
+            this.shapeContainer2.Size = new System.Drawing.Size(585, 366);
             this.shapeContainer2.TabIndex = 16;
             this.shapeContainer2.TabStop = false;
             // 
@@ -237,9 +237,9 @@
             this.panel2.Controls.Add(this.shapeContainer1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(673, 0);
+            this.panel2.Location = new System.Drawing.Point(573, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(377, 620);
+            this.panel2.Size = new System.Drawing.Size(266, 366);
             this.panel2.TabIndex = 1;
             // 
             // btnCancelar
@@ -254,7 +254,7 @@
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnCancelar.Location = new System.Drawing.Point(262, 126);
+            this.btnCancelar.Location = new System.Drawing.Point(134, 307);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(103, 47);
             this.btnCancelar.TabIndex = 21;
@@ -291,7 +291,7 @@
             this.label4.ForeColor = System.Drawing.Color.LightGray;
             this.label4.Location = new System.Drawing.Point(30, 125);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 18);
+            this.label4.Size = new System.Drawing.Size(74, 18);
             this.label4.TabIndex = 8;
             this.label4.Text = "Telefono :";
             // 
@@ -302,7 +302,7 @@
             this.label7.ForeColor = System.Drawing.Color.LightGray;
             this.label7.Location = new System.Drawing.Point(34, 234);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 18);
+            this.label7.Size = new System.Drawing.Size(39, 18);
             this.label7.TabIndex = 11;
             this.label7.Text = "Rfc :";
             // 
@@ -324,7 +324,7 @@
             this.label6.ForeColor = System.Drawing.Color.LightGray;
             this.label6.Location = new System.Drawing.Point(34, 182);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 18);
+            this.label6.Size = new System.Drawing.Size(82, 18);
             this.label6.TabIndex = 10;
             this.label6.Text = "Domicilio :";
             // 
@@ -334,11 +334,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe Script", 14F);
-            this.label8.ForeColor = System.Drawing.Color.LightGray;
-            this.label8.Location = new System.Drawing.Point(121, 9);
+            this.label8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label8.Location = new System.Drawing.Point(75, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(154, 30);
+            this.label8.Size = new System.Drawing.Size(128, 22);
             this.label8.TabIndex = 14;
             this.label8.Text = "Nuevo Cliente";
             // 
@@ -354,7 +354,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnGuardar.Location = new System.Drawing.Point(262, 73);
+            this.btnGuardar.Location = new System.Drawing.Point(25, 307);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(103, 47);
             this.btnGuardar.TabIndex = 7;
@@ -394,7 +394,7 @@
             this.lineShape5,
             this.lineShape3,
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(377, 620);
+            this.shapeContainer1.Size = new System.Drawing.Size(266, 366);
             this.shapeContainer1.TabIndex = 15;
             this.shapeContainer1.TabStop = false;
             // 
@@ -442,15 +442,15 @@
             this.lineShape1.Y1 = 108;
             this.lineShape1.Y2 = 108;
             // 
-            // frmEmpleados
+            // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 620);
+            this.ClientSize = new System.Drawing.Size(839, 366);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmEmpleados";
+            this.Name = "frmClientes";
             this.Text = "frmProyectos";
             this.Load += new System.EventHandler(this.frmProyectos_Load);
             this.panel1.ResumeLayout(false);
