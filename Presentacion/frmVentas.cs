@@ -186,6 +186,7 @@ namespace Presentacion
                 this.dtgDatos.Columns["Cantidad"].Visible = true;
                 this.dtgDatos.Columns["Precio"].Visible = true;
                 this.dtgDatos.Columns["Total"].Visible = true;
+                this.dtgDatos.Columns["Precio"].HeaderText = "Precio";
             }
         }
 
