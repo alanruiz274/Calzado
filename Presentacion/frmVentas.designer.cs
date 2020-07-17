@@ -33,7 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cmbBuscar = new System.Windows.Forms.ComboBox();
-            this.btnVer = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.dtgDatos = new System.Windows.Forms.DataGridView();
@@ -65,7 +64,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(58)))), ((int)(((byte)(67)))));
             this.panel1.Controls.Add(this.cmbBuscar);
-            this.panel1.Controls.Add(this.btnVer);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.lblTitulo);
             this.panel1.Controls.Add(this.dtgDatos);
@@ -88,33 +86,14 @@
             this.cmbBuscar.ItemHeight = 17;
             this.cmbBuscar.Items.AddRange(new object[] {
             "Producto mas vendido",
-            "Quien compra mas",
-            "Dia que se vende mas"});
+            "Mejores 10 clientes",
+            "Dia que se vende mas",
+            "Ventas"});
             this.cmbBuscar.Location = new System.Drawing.Point(113, 48);
             this.cmbBuscar.Name = "cmbBuscar";
             this.cmbBuscar.Size = new System.Drawing.Size(199, 25);
             this.cmbBuscar.TabIndex = 23;
             this.cmbBuscar.SelectedIndexChanged += new System.EventHandler(this.cmbBuscar_SelectedIndexChanged);
-            // 
-            // btnVer
-            // 
-            this.btnVer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.btnVer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnVer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVer.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnVer.FlatAppearance.BorderSize = 0;
-            this.btnVer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray;
-            this.btnVer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVer.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVer.ForeColor = System.Drawing.Color.LightGray;
-            this.btnVer.Location = new System.Drawing.Point(318, 37);
-            this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(103, 47);
-            this.btnVer.TabIndex = 17;
-            this.btnVer.Text = "VER VENTAS";
-            this.btnVer.UseVisualStyleBackColor = false;
-            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
             // 
             // label2
             // 
@@ -296,9 +275,9 @@
             this.label4.ForeColor = System.Drawing.Color.LightGray;
             this.label4.Location = new System.Drawing.Point(30, 125);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 18);
+            this.label4.Size = new System.Drawing.Size(65, 18);
             this.label4.TabIndex = 8;
-            this.label4.Text = "CLiente :";
+            this.label4.Text = "Cliente :";
             // 
             // label7
             // 
@@ -477,7 +456,6 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private System.Windows.Forms.Button btnVer;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ComboBox cmbCliente;
         private System.Windows.Forms.DateTimePicker dtpFecha;

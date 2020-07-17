@@ -71,7 +71,7 @@ namespace Presentacion
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-            this.imgFondo.Visible = false;
+            //this.imgFondo.Visible = false;
             AbrirForm(new frmClientes());
         }
 
@@ -83,7 +83,7 @@ namespace Presentacion
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            this.imgFondo.Visible = false;
+            //this.imgFondo.Visible = false;
             AbrirForm(new frmVentas());
         }
 

@@ -126,9 +126,9 @@
             this.label2.ForeColor = System.Drawing.Color.LightGray;
             this.label2.Location = new System.Drawing.Point(42, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 18);
+            this.label2.Size = new System.Drawing.Size(118, 18);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Buscar :";
+            this.label2.Text = "Buscar nombre:";
             // 
             // txtBuscar
             // 
@@ -136,7 +136,7 @@
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBuscar.Font = new System.Drawing.Font("Arial", 12F);
             this.txtBuscar.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txtBuscar.Location = new System.Drawing.Point(113, 50);
+            this.txtBuscar.Location = new System.Drawing.Point(175, 52);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(200, 19);
             this.txtBuscar.TabIndex = 11;
@@ -215,10 +215,10 @@
             this.lineShape2.BorderWidth = 2;
             this.lineShape2.Enabled = false;
             this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 113;
-            this.lineShape2.X2 = 310;
-            this.lineShape2.Y1 = 73;
-            this.lineShape2.Y2 = 73;
+            this.lineShape2.X1 = 178;
+            this.lineShape2.X2 = 375;
+            this.lineShape2.Y1 = 72;
+            this.lineShape2.Y2 = 72;
             // 
             // panel2
             // 
@@ -293,7 +293,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 18);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Telefono :";
+            this.label4.Text = "Teléfono :";
             // 
             // label7
             // 

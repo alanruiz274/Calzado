@@ -162,7 +162,7 @@ namespace Presentacion
                 lblTitulo.Text = cmbBuscar.Text;
                 dtgDatos.DataSource = ventasManejador.MostarQuiencompromas();
                 this.dtgDatos.Columns["Idc"].Visible = false;
-                this.dtgDatos.Columns["Domicilio"].Visible = false;
+                this.dtgDatos.Columns["Domicilio"].HeaderText = "Total";
                 this.dtgDatos.Columns["Rfc"].Visible = false;
                 this.dtgDatos.Columns["Telefono"].Visible = false;
             }
@@ -176,6 +176,11 @@ namespace Presentacion
                 this.dtgDatos.Columns["Precio"].Visible = false;
                 this.dtgDatos.Columns["Total"].Visible = false;
                 this.dtgDatos.Columns["Producto"].Visible = false;
+            }
+            if (cmbBuscar.SelectedIndex == 3)
+            {
+                lblTitulo.Text = "Ventas";
+                dtgDatos.DataSource = ventasManejador.Mostrar("");
             }
         }
 

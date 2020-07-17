@@ -59,7 +59,7 @@ namespace AccesoDatos
                     Cantidad = Convert.ToInt32(row["cantidad_v"].ToString()),
                     Fecha = row["fecha"].ToString(),
                     Precio = Convert.ToDouble(row["precio_p"].ToString()),
-                    Total = Convert.ToDouble(row["total"].ToString())
+                    Total = (row["total"].ToString())
                 };
                 list.Add(ventas);
             }
@@ -77,8 +77,8 @@ namespace AccesoDatos
                 var productos = new Productos
                 {
                     Idp = Convert.ToInt32(row["id_p"].ToString()),
-                    Nombre = row["nombre_p"].ToString(),
-                    Precio = Convert.ToDouble(row["precio_p"].ToString())
+                    Nombre = row["nombre_p"].ToString()
+                    //Precio = Convert.ToDouble(row["precio_p"].ToString())
                 };
                 list.Add(productos);
             }
@@ -114,7 +114,7 @@ namespace AccesoDatos
                 {
                     Idp = Convert.ToInt32(row["id_p"].ToString()),
                     Nombre = row["nombre_p"].ToString(),
-                    Precio = Convert.ToDouble(row["total"].ToString())
+                    Precio = (row["total"].ToString())
                 };
                 list.Add(productos);
             }
@@ -131,7 +131,8 @@ namespace AccesoDatos
             {
                 var clientes = new Clientes
                 {
-                    Nombre = row["nombre_c"].ToString()
+                    Nombre = row["nombre_c"].ToString(),
+                    Domicilio = row["total"].ToString()
                 };
                 list.Add(clientes);
             }

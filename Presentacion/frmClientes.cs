@@ -108,6 +108,8 @@ namespace Presentacion
         }
         private void Guardar()
         {
+            try
+            {
                 //despues validamos si contien ID para saber si va a modificar o guardar
                 if (idCliente > 0)
                 {
@@ -119,6 +121,11 @@ namespace Presentacion
                     clientesManejador.Guardar(clientes);
                     Limpiar();
                 }
+            }
+            catch
+            {
+                MessageBox.Show("error en los datos");
+            }
         }
         private void Limpiar()
         {
