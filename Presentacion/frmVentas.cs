@@ -175,12 +175,17 @@ namespace Presentacion
                 this.dtgDatos.Columns["Cantidad"].Visible = false;
                 this.dtgDatos.Columns["Precio"].Visible = false;
                 this.dtgDatos.Columns["Total"].Visible = false;
-                this.dtgDatos.Columns["Producto"].Visible = false;
+                this.dtgDatos.Columns["Producto"].HeaderText = "Total";
             }
             if (cmbBuscar.SelectedIndex == 3)
             {
                 lblTitulo.Text = "Ventas";
                 dtgDatos.DataSource = ventasManejador.Mostrar("");
+                this.dtgDatos.Columns["Idv"].Visible = true;
+                this.dtgDatos.Columns["Cliente"].Visible = true;
+                this.dtgDatos.Columns["Cantidad"].Visible = true;
+                this.dtgDatos.Columns["Precio"].Visible = true;
+                this.dtgDatos.Columns["Total"].Visible = true;
             }
         }
 

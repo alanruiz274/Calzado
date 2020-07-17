@@ -85,9 +85,9 @@
             this.cmbBuscar.FormattingEnabled = true;
             this.cmbBuscar.ItemHeight = 17;
             this.cmbBuscar.Items.AddRange(new object[] {
-            "Producto mas vendido",
-            "Mejores 10 clientes",
-            "Dia que se vende mas",
+            "Productos vendidos",
+            "Mejores  clientes",
+            "Dias que se vende mas",
             "Ventas"});
             this.cmbBuscar.Location = new System.Drawing.Point(113, 48);
             this.cmbBuscar.Name = "cmbBuscar";

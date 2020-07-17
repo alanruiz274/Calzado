@@ -95,7 +95,8 @@ namespace AccesoDatos
             {
                 var ventas = new Ventas
                 {
-                    Fecha = row["fecha"].ToString()
+                    Fecha = row["fecha"].ToString(),
+                    Producto = row["total"].ToString()
                 };
                 list.Add(ventas);
             }
